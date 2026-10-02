@@ -4,6 +4,10 @@
 
 [Try the live application](https://student-academic-performance-prediction-slztertgsrxrzosdbj6qwc.streamlit.app/)
 
+## Application Screenshot
+
+![Student Academic Performance Predictor](app_screenshot.png)
+
 ## Overview
 
 This project uses machine learning to predict a student's overall academic score based on study habits, attendance-related information, extracurricular activities, gender, part-time job status, and career aspiration.
@@ -65,6 +69,14 @@ The application uses:
 - Joblib
 - Streamlit
 
+## Dataset
+
+The dataset used for this project was obtained from Kaggle.
+
+The raw dataset is not included in this repository because it contains identifying fields that are not used by the machine learning model.
+
+The target variable, `overall_score`, is calculated as the average of the seven subject scores.
+
 ## Project Structure
 
 ```text
@@ -76,10 +88,3 @@ student-performance-prediction/
 ├── requirements.txt
 └── README.md
 
-## Dataset
-
-The dataset used for this project was obtained from Kaggle.
-
-The raw dataset is not included in this repository because it contains identifying fields that are not used by the machine learning model.
-
-The target variable, `overall_score`, is calculated as the average of the seven subject scores.
