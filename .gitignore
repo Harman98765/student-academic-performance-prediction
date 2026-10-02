@@ -1,0 +1,7 @@
+student_scores.csv
+streamlit.log
+sample_data/
+.config/
+__pycache__/
+.ipynb_checkpoints/
+.env
