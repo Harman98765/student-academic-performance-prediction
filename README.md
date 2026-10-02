@@ -1,5 +1,9 @@
 # Student Academic Performance Prediction
 
+## Live Demo
+
+[Try the live application](https://student-academic-performance-prediction-slztertgsrxrzosdbj6qwc.streamlit.app/)
+
 ## Overview
 
 This project uses machine learning to predict a student's overall academic score based on study habits, attendance-related information, extracurricular activities, gender, part-time job status, and career aspiration.
@@ -70,7 +74,7 @@ student-performance-prediction/
 ├── app.py
 ├── student_performance_model.pkl
 ├── requirements.txt
-└── README.md 
+└── README.md
 
 ## Dataset
 
